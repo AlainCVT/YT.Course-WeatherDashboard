@@ -84,4 +84,4 @@ Enjoy exploring the weather dashboard!
 
 ## Credits
 
-https://www.youtube.com/watch?v=M-iV9R3kLNA
+[Stop Copying Tutorials — Build a Real React App With Me](https://www.youtube.com/watch?v=M-iV9R3kLNA)
