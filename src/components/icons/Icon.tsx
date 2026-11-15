@@ -6,9 +6,9 @@ const ICONS = {
     node: (
       <path
         d="M12 20V4M5 11L12 4L19 11"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     ),
   },
@@ -18,9 +18,9 @@ const ICONS = {
       <path
         d="M18 15L12 9L6 15"
         fill="none"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     ),
   },
@@ -30,21 +30,21 @@ const ICONS = {
       <>
         <path
           d="M22.0001 4L2 4"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M22.0001 12L2 12"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M22.0001 20L2 20"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </>
     ),
@@ -53,17 +53,17 @@ const ICONS = {
     type: 'stroke',
     node: (
       <>
-        <circle cx="12" cy="12" r="9" stroke-width="2" fill="none" />
+        <circle cx="12" cy="12" r="9" strokeWidth="2" fill="none" />
         <path
           d="M12.0001 8H12V8.0001H12.0001V8Z"
-          stroke-width="3"
-          stroke-linejoin="round"
+          strokeWidth="3"
+          strokeLinejoin="round"
         />
         <path
           d="M12 12V16"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </>
     ),
@@ -78,8 +78,8 @@ const ICONS = {
     type: 'fill',
     node: (
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M3.39703 11.6316C3.39703 16.6021 7.42647 20.6316 12.397 20.6316C15.6858 20.6316 18.5656 18.8665 20.1358 16.2301C16.7285 17.329 12.6922 16.7549 9.98282 14.0456C7.25201 11.3147 6.72603 7.28421 7.86703 3.89299C5.20697 5.47933 3.39703 8.38938 3.39703 11.6316ZM21.187 13.5852C22.0125 13.1022 23.255 13.6489 23 14.5707C21.7144 19.2188 17.4543 22.6316 12.397 22.6316C6.3219 22.6316 1.39703 17.7067 1.39703 11.6316C1.39703 6.5888 4.93533 2.25851 9.61528 1.00005C10.5393 0.751563 11.0645 1.99384 10.5641 2.80941C8.70026 5.84662 8.83194 10.0662 11.397 12.6313C13.9319 15.1663 18.1365 15.3703 21.187 13.5852Z"
       />
     ),
@@ -90,9 +90,9 @@ const ICONS = {
       <path
         d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
         fill="none"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     ),
   },
@@ -121,9 +121,9 @@ const ICONS = {
     node: (
       <path
         d="M12 10V3M12 3L9 6M12 3L15 6M6 12L5 11M18 12L19 11M3 18H21M5 21H19M7 18C7 15.2386 9.23858 13 12 13C14.7614 13 17 15.2386 17 18"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     ),
   },
@@ -132,9 +132,9 @@ const ICONS = {
     node: (
       <path
         d="M6 12L5 11M18 12L19 11M3 18H21M5 21H19M7 18C7 15.2386 9.23858 13 12 13C14.7614 13 17 15.2386 17 18M12 3V10M12 10L15 7M12 10L9 7"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     ),
   },
