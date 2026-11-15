@@ -52,7 +52,7 @@ function TestComponent() {
     }
   }, [coords])
 
-  return <Title location={location} />
+  return <Title location={location} isLoading={false} />
 }
 
 describe('Integration: URL Coordinates to Title Display', () => {

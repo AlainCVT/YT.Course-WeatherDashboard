@@ -38,7 +38,7 @@ const Wrapper = ({ children }: PropsWithChildren) => {
 
 describe('Title Component', () => {
   it('renders "Select a location" when no location is provided', async () => {
-    render(<Title />, { wrapper: Wrapper })
+    render(<Title isLoading={false} />, { wrapper: Wrapper })
 
     // The Suspense should resolve since there's no query to suspend
     await waitFor(() => {
@@ -54,7 +54,7 @@ describe('Title Component', () => {
       state: 'Ile-de-France',
     }
 
-    render(<Title location={location} />, { wrapper: Wrapper })
+    render(<Title location={location} isLoading={false} />, { wrapper: Wrapper })
 
     // The country name is pre-cached, so it should render immediately
     await waitFor(() => {
@@ -69,7 +69,7 @@ describe('Title Component', () => {
       country: 'FR',
     }
 
-    render(<Title location={location} />, { wrapper: Wrapper })
+    render(<Title location={location} isLoading={false} />, { wrapper: Wrapper })
 
     // The country name is pre-cached
     await waitFor(() => {
@@ -78,7 +78,9 @@ describe('Title Component', () => {
   })
 
   it('applies custom className', async () => {
-    render(<Title className="custom-class" />, { wrapper: Wrapper })
+    render(<Title className="custom-class" isLoading={false} />, {
+      wrapper: Wrapper,
+    })
 
     await waitFor(() => {
       const heading = screen.getByRole('heading')
